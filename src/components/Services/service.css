@@ -1,0 +1,81 @@
+.service-page {
+    margin-top: 55px;
+}
+
+.top-container {
+    min-height: 600px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/images/service/bg.jpg') !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.top-container p{
+    overflow: hidden;
+    color: #4c4c4e;
+    font-size: 50px;
+    line-height: 106.25px;
+    vertical-align: baseline;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    text-align: center
+}
+
+@media (max-width: 900px){
+    .top-container p{
+        font-size: 30px;
+    line-height: 69px;
+
+    }
+}
+
+.card-area {
+    margin: 20px 0;    
+}
+
+.card-area img {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+}
+
+.card-area p, .card-area {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.card-area section {
+    padding: 5px;
+}
+
+figure {
+    overflow: hidden;
+
+}
+.imgcard img {
+    cursor: pointer;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.imgcard figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.imgcard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: 10px 0
+  }
+  
+  .imgcard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  

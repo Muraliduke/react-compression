@@ -1,0 +1,198 @@
+video {
+    width: 100vw;
+}
+
+.toplevel {
+    position: relative;
+    margin-top: 56px;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        position: absolute;
+        top: 35%;
+        left: 5%;
+        color: white;
+        font-size: 18px!important;
+        z-index: 3;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    h1 {
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        font-size: 40px;
+        color: white;
+        z-index: 3;
+    }
+}
+
+.toplevel video {
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.toplevel .overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+   /* background-image: 
+        radial-gradient(
+            circle at 20% 30%, #000000, 
+            rgba(11, 39, 65, 0.32) 87%, 
+            rgba(0, 0, 0, 0.0)
+        ); */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(0,123,255,.25) 0%, rgba(183,181,189,0.7542367288712359) 99%, rgba(0,212,255,1) 100%);
+}
+
+.mid-section {
+    margin: 30px 0;
+}
+h3 {
+    text-align: center;
+}
+h6 {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.koops-card {
+    margin-top: 56px;
+}
+.koops-card img {
+    width: 64px;
+    height: 64px;
+    margin-left: 40%;
+}
+.expr {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.expr p{
+    font-family: 'Open Sans', sans-serif;
+}
+.expr img {
+    width: 32px;
+    height: 32px;
+}
+
+.expr .title {
+   display: flex; 
+}
+
+ .title p{
+    font-size: 20px;
+    font-weight: bold;
+ }
+
+ .title p,  .title img{
+    margin-left: 10px;
+ }
+
+.expr .content {
+    font-size: 16px;
+    margin: 15px
+}
+
+.cardstyle {
+    margin: 40px;
+}
+
+.cent {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.house-cleaning {
+    height: 300px;
+    background: url('../../assets/images/HouseCleaning.jpg') no-repeat center;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    margin: 15px 0;
+}
+.house-cleaning section h2 , .house-cleaning section p{
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.koops-operation p{
+    text-align: center;
+}
+
+.slider-content {
+    justify-content: center;
+    display: grid;
+    border-radius: 20px 0 30px 0;
+    background: #00cded;
+    min-height: 170px;
+    margin: 20px auto;
+    padding: 10px 0;
+    align-items: center;
+}
+.slider-content p{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    font-style: italic;
+}
+.slider-content span{
+    margin-left: 10%;
+}
+
+.slider-content .name{
+    color: white;
+}
+
+.stats {
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: 10px 0;
+    min-height: 70px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.stats h2:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.stats h2 {
+    font-size: 42px;
+    color: crimson;
+    cursor: pointer;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.stats p {
+    margin: 19px 12px;
+}
+
+@media screen and (min-width: 992px) {
+    .stats {
+        min-height: 108px;
+    }
+}

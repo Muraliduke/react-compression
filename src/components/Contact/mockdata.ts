@@ -4,7 +4,7 @@ const data: any[] = [
     {
       path: require('../../assets/images/call.svg'),
       title: 'We’re on call 24/7',
-      content: Link({val: '+91-7338854123', type: 'phone'}),
+      content: Link({val: '+91-9551075056', type: 'phone'}),
     },
     {
         path: require('../../assets/images/mail.svg'),

@@ -17,7 +17,7 @@ const NavBar = (props: any) => {
                 `}
             </style>
             <Navbar fixed="top" expanded={expanded} collapseOnSelect expand="lg" variant="dark" bg="dark">
-                <Navbar.Brand as={Link} to="/"><img src={require('../../logo.png')}  alt="koops-logo"/></Navbar.Brand>
+                <Navbar.Brand as={Link} to="/"><img className="logo" src={require('../../logo.png')}  alt="koops-logo"/></Navbar.Brand>
                 <Navbar.Toggle onClick={() => setExpanded(!expanded)} aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
@@ -26,8 +26,8 @@ const NavBar = (props: any) => {
                         <Nav.Link onClick={() => setExpanded(!expanded)} as={Link} to="/contact" active={pathname.startsWith('/contact')}>Contact Us</Nav.Link>
                     </Nav>
                     <Nav>
-											<Nav.Link href="tel:917338854123"><span>call Us at : +91-7338854123</span></Nav.Link>
-											<Nav.Link href="mailto:info@koops.co.in"><span>Mail us at : info@koops.co.in</span></Nav.Link>
+											<Nav.Link href="tel:919551075056"><span>call Us at : +91-9551075056</span></Nav.Link>
+											<Nav.Link href="mailto:info@jkcorps.co.in"><span>Mail us at : info@jkcorps.co.in</span></Nav.Link>
 											
                     </Nav>
                 </Navbar.Collapse>

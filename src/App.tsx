@@ -52,10 +52,7 @@ const bounceTransition = {
 function App() {
 
   useEffect(() => {
-    console.log('effect');
-    console.log(storage);
     storage.child(`HouseCleaning.jpg`).getDownloadURL().then((url) => {
-      console.log(url)
     })
     const unsub = db.collection('koops').onSnapshot(snapshot => {
       // console.log(snapshot.docs);

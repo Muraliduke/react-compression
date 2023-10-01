@@ -15,65 +15,77 @@ const usefulLink = [
 
 const services = [
   {
-    title: 'Covid 19 Disinfection – House, office and factory',
-    link: '/services'
+      "title": "Synthesis ",
+      "link": "/services"
   },
   {
-    title: 'Facility Management',
-    link: '/services'
+      "title": "UPF",
+      "link": "/services"
   },
   {
-    title: 'Premium Deep Cleaning for Residential and Commercial',
-    link: '/services'
+      "title": "NDM Libraries",
+      "link": "/services"
   },
   {
-    title: 'Hitech Bathroom and Toilet cleaning',
-    link: '/services'
+      "title": "Initial Design Setup",
+      "link": "/services"
   },
   {
-    title: 'Sofa and Chair Cleaning',
-    link: '/services'
+      "title": "Floor Planning",
+      "link": "/services"
   },
   {
-    title: 'Indian Italian Marble Polishing and Repolishing with AMC',
-    link: '/services'
+      "title": "Placement",
+      "link": "/services"
   },
   {
-    title: 'Mosaic Scrubbing and polishing',
-    link: '/services'
+      "title": "Power Planning",
+      "link": "/services"
   },
   {
-    title: 'Granite wall and floor Polishing',
-    link: '/services'
+      "title": "Scan Chain RE-Ordering and RE-Partitioning",
+      "link": "/services"
   },
   {
-    title: 'Wood Polishing',
-    link: '/services'
+      "title": "Timing Constraints",
+      "link": "/services"
   },
   {
-    title: 'Carpet cleaning - Commercial with AMC',
-    link: '/services'
+      "title": "Clock Tree Synthesis",
+      "link": "/services"
   },
   {
-    title: 'Pest Control For Residential and Commercial ',
-    link: '/services'
+      "title": "Global Routing",
+      "link": "/services"
   },
   {
-    title: 'Plumbing & Electrician service',
-    link: '/services'
-	}
+      "title": "Power Analysis (Static and Dynamic) ",
+      "link": "/services"
+  },
+  {
+      "title": "Engineering Change Order Flow (ECO)",
+      "link": "/services"
+  },
+  {
+      "title": "Multiple Industry standard Projects",
+      "link": "/services"
+  },
+  {
+      "title": "Design For Manufacturability",
+      "link": "/services"
+  }
 ]
 
 const about = {
-  name : '(C) KOOPS INDIA. A SUBSIDIARY OF JAS ENTERPRISES',
+  name : '(C) JK SEMITECH INDIA',
   address : '187/72, Basement No.1 , Yamuna Apartment, Habibullah Road, Tnagar, Chennai - 17',
-  phone: '+91-7338854123/044- 48565222',
+  phone: '+91-9551075056',
   email: 'info@koops.co.in'
 }
 
 const customerFirst = [
-  `We at Koops provide high-quality cleaning services to residents and business owners in Tamilnadu.`,
-  `Our local cleaners are vetted and insured, trained to deal with any task – from carpet or domestic cleaning to end of tenancy cleaning. Our simple booking process allows you to get a cleaner fast and easy. Emergency booking and same day cleaning now available!`
+  `We at JK SEMITECH provide high-quality services to our customers.`,
+  `Our team of skilled professionals is carefully selected and fully insured. They are trained to handle a wide range of tasks, including project management, training, and various service offerings. Our streamlined booking system ensures a quick and hassle-free process to secure our services.`
 ]
 
 export default {

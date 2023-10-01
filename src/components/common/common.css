@@ -50,3 +50,8 @@ nav img {
 span {
     color: #9be1f2
 }
+
+.logo img {
+    width: auto;
+    height: 6vw;
+}

@@ -13,7 +13,10 @@ const card = (props: any) => {
                         </div> */}
                 </div>
                 <h3>{props.title}</h3> 
-                <p>{props.content}</p>
+                <ul>
+                    {props.content.map(val => <li>{val}</li>)}
+                    </ul>
+                {/* <p>{props.content}</p> */}
            </div>
         </section>
     )

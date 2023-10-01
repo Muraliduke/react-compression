@@ -5,19 +5,24 @@ import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from 'react-loader-spinner'
 
 const FormLayout = () => {
-		const data = ['Covid 19 Disinfection – House, office and factory',
-		'Facility Management',
-		'Premium Deep Cleaning for Residential and Commercial',
-		'Hitech Bathroom and Toilet cleaning',
-		'Sofa and Chair Cleaning',
-		'Indian Italian Marble Polishing and Repolishing with AMC',
-		'Mosaic Scrubbing and polishing',
-		'Granite wall and floor Polishing',
-		'Wood Polishing',
-		'Carpet cleaning - Commercial with AMC',
-		'Pest Control For Residential and Commercial ',
-		'Plumbing & Electrician service']
-		const [service, setService] = useState('Covid 19 Disinfection – House, office and factory');
+		const data = [
+			"Synthesis ",
+			"UPF",
+			"NDM Libraries",
+			"Initial Design Setup",
+			"Floor Planning",
+			"Placement",
+			"Power Planning",
+			"Scan Chain RE-Ordering and RE-Partitioning",
+			"Timing Constraints",
+			"Clock Tree Synthesis",
+			"Global Routing",
+			"Power Analysis (Static and Dynamic) ",
+			"Engineering Change Order Flow (ECO)",
+			"Multiple Industry standard Projects",
+			"Design For Manufacturability"
+		]
+		const [service, setService] = useState('Synthesis');
 		const [name, setName] = useState('');
 		const [number, setNumber] = useState('');
 		const [city, setCity] = useState('');

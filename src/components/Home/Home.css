@@ -49,6 +49,7 @@ video {
             rgba(0, 0, 0, 0.0)
         ); */
     background: rgb(2,0,36);
+    /* background: linear-gradient(90deg, rgba(0,123,255,.25) 0%, rgb(74 51 144 / 75%) 99%, rgba(0,212,255,1) 100%); */
     background: linear-gradient(90deg, rgba(0,123,255,.25) 0%, rgba(183,181,189,0.7542367288712359) 99%, rgba(0,212,255,1) 100%);
 }
 

@@ -4,29 +4,20 @@ import HomeCard from '../model';
 const data: HomeCard[] = [
     {
        
-        title: `"We were very happy with Koops service. 
-        Quick and fair estimate and thorough cleaning as I required. Will definitely call them back."`,
-        content: `RAJENDAR (Govt.employee)`
+        title: `"We were very happy with JK SEMITECH service. 
+        Quick and fair estimate and thorough process as I required with knowledge equipped staffs. "`,
+        content: `RAJENDAR`
     },
     {
-       
-        title: `"Thanks a lot for cleaning my apartment when I moved out. 
-        I got my entire security deposit back and my landlord was very impressed."`,
-        content: `Arumugam (PSU employee)`
-    },
-    {
-        title: `"What a great job, I couldn't have asked for more..
-        My home was cleaned and I am very happy with how it looks.
-         I never thought Koops would help me clean my home but Koops did it again ,they helped me find a good 
-         price for a cleaning service."`,
-        content: `Murali (IT employee)`
+        title: `"What a great job, I couldn't have asked for more. I never thought JK SEMITECH would help me provide great knowledgful insights"`,
+        content: `Murali`
     },
     {
         title: `Words can not express what a wonderful job they did!
-         They showed up on time with all the right products and equipment. 
-         I didn't have to tell them what I needed done, they just attacked the mess! Thank 
+         They showed up on time with all the right products and service. 
+         I didn't have to tell them what I needed done! Thank 
          You so much for all your hard work!`,
-        content: `Keerthi (Professor)`
+        content: `Jothi`
     }
 ]
 

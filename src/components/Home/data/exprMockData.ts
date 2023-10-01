@@ -9,22 +9,22 @@ const data: HomeCard[] = [
     {
         src: experienced,
         title: 'Experienced',
-        content: `Koops has been connecting people to professional house cleaning and other home services since 2007. In our short history, house cleaning professionals using the Koops platform have helped clean thousands of homes and apartments in chennai and beyond. Koops is your one-stop shop for whenever you need professional house cleaning help.`
+        content: `JK SEMITECH has been linking professionals to engineering project services and other technical solutions since 2007. In our brief journey, engineers and project experts collaborating through the JK SEMITECH platform have successfully executed numerous engineering projects in Chennai and beyond. JK SEMITECH is your ultimate destination whenever you require expert assistance for your engineering projects.`
     },
     {
         src: reliable,
         title: 'Reliable',
-        content: `When you schedule a cleaner or maid service through Koops to come to your home, you can rest assured knowing that someone will be at your home ready to go at the time you specified. They’ll help return your bedrooms, bathrooms, kitchen, living room, and more to the like-new condition that you remember from when you first moved in!`
+        content: `When you schedule an engineering project service through JK SEMITECH for your project, you can have complete confidence that a dedicated team will be on-site, ready to commence work precisely at the time you've scheduled. They'll assist in restoring your project area, whether it's your construction site, industrial facility, or infrastructure project, to the pristine condition you envisioned when you first initiated the project!`
     },
     {
         src: convenient,
         title: 'Convenient',
-        content: `Late nights at work preventing you from keeping your apartment tidy? Too busy taking the kids to school, practices, and playdates to vacuum the floors? We know life can be crazy and unpredictable, and when you’re tired and overworked, the last thing anybody wants to do is clean their home. Whatever the reason you’re looking for home cleaning help, Koops has you covered.`
+        content: `Working long hours on your engineering projects and unable to maintain a tidy workspace? Caught up in a whirlwind of project deadlines and meetings, leaving little time to organize your project area? We understand that the engineering field can be demanding and unpredictable, and when you're exhausted from your work, the last thing you want to worry about is the cleanliness of your project site. Whatever the reason you're seeking assistance for your engineering projects, JK SEMITECH is here to provide the convenience and support you need.`
     },
     {
         src: flexible,
         title: 'Flexible',
-        content: `With Koops, it’s easy to schedule and reschedule bookings. Just open the Koops app and choose the date and time that works best for you. Or maybe your home needs an extra deep clean with some special attention - you can use the app to add extras to your booking, like laundry, inside the cabinets, inside the refrigerator, and more. Make Koops your #1 cleaning services provider, whether you’re looking for a house cleaning, apartment cleaning, maid service, or more!`
+        content: `With JK SEMITECH, scheduling and adjusting your engineering project bookings is a breeze. Simply open the JK SEMITECH platform and select the date and time that aligns with your project's requirements. And if your project demands a more comprehensive approach with specific focus areas, you can utilize the platform to include additional services, such as specialized assessments, equipment inspections, and more. Make JK SEMITECH your top choice for engineering project services, whether you're in need of project support, consulting, or other technical solutions!`
     }
 ]
 

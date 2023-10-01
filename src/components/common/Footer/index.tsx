@@ -26,7 +26,7 @@ const Footer = () => {
             </div>
 
             <div className="koops col-xs-12 col-sm-6 col-md-3 mb-10">
-                <h5 className="widget-title">KOOPS</h5>
+                <h5 className="widget-title">JK SEMITECH</h5>
                 <div className="pl">
                     <p className="company-name">{about.name}</p>
                     <p>Address:</p>
